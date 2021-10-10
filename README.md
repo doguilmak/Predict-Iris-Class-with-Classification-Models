@@ -56,6 +56,7 @@ The model predicted as ['Iris-virginica'].
 | **0** | **2** | **13** |
 
 > **Accuracy score: 0.9591836734693877**
+> 
 > **K-NN Score: 0.9591836734693877**
 
 The model predicted as ['Iris-virginica'].
