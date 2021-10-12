@@ -30,10 +30,10 @@ In the ***Plots*** file, there are the confusion matrix of the classification al
 
 ### **Number of Duplicated Values:**
 
-> **Number of NaN values:**   3  
+> **Number of duplicated values:**   3  
  
-**After inplace mean of the columns** 
-> **Number of NaN values:**   0
+**After removing duplicate rows based on all columns.** 
+> **Number of duplicated values:**   0
 
 ### Comparing Classification Algorithms
 
