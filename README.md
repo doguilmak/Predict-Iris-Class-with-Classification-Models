@@ -61,12 +61,16 @@ The model predicted as ['Iris-virginica'].
 
 ***Manhattan***
 
+We use Manhattan distance, also known as city block distance, or taxicab geometry if we need to calculate the distance between two data points in a grid-like path. Manhattan distance metric can be understood with the help of a simple example.
+
 | ![man_1](Plots/knn_manhattan_1.png) | ![man_2](Plots/knn_manhattan_2.png) | ![man_3](Plots/knn_manhattan_3.png) |
 |--|--|--|
 | ![man_5](Plots/knn_manhattan_5.png) | ![man_10](Plots/knn_manhattan_10.png) | ![man_15](Plots/knn_manhattan_15.png) |
 
 
 ***Euclidean***
+
+Euclidean distance is the straight line distance between 2 data points in a plane. It is calculated using the Minkowski Distance formula by setting ‘p’ value to 2, thus, also known as the L2 norm distance metric.
 
 | ![ec_1](Plots/knn_euclidean_1.png) | ![ec_2](Plots/knn_euclidean_2.png) | ![ec_3](Plots/knn_euclidean_3.png) |
 |--|--|--|
