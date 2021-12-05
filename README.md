@@ -47,6 +47,8 @@ In the ***Plots*** file, there are the confusion matrix of the classification al
 
 The model predicted as ['Iris-virginica'].
 
+---
+
 ***K-NN Confusion Matrix:***
 
 <p align="center">
@@ -79,6 +81,8 @@ Euclidean distance is the straight line distance between 2 data points in a plan
 
 The model predicted as ['Iris-virginica'].
 
+---
+
 ***SVC Confusion Matrix:***
 
 <p align="center">
@@ -88,6 +92,8 @@ The model predicted as ['Iris-virginica'].
 > **Accuracy score: 0.8775510204081632**
 
 The model predicted as ['Iris-versicolor'].
+
+---
 
 ***Gaussian Naive Bayes Confusion Matrix:***
 
@@ -99,6 +105,8 @@ The model predicted as ['Iris-versicolor'].
 
 The model predicted as ['Iris-virginica'].
 
+---
+
 ***Decision Tree Classifier Confusion Matrix:***
 
 <p align="center">
@@ -108,6 +116,8 @@ The model predicted as ['Iris-virginica'].
 > **Accuracy score: 0.9795918367346939**
 
 The model predicted as ['Iris-virginica'].
+
+---
 
 ***Random Forest Confusion Matrix:***
 
@@ -119,6 +129,8 @@ The model predicted as ['Iris-virginica'].
 
 The model predicted as ['Iris-virginica'].
 
+---
+
 ### K-Fold Cross Validation
 
 **Success Mean:**
@@ -126,6 +138,8 @@ The model predicted as ['Iris-virginica'].
  
 **Success Standard Deviation:**
  0.03230443296033672
+
+---
 
 ### Grid Search
 
