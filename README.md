@@ -49,23 +49,37 @@ The model predicted as ['Iris-virginica'].
 
 ***K-NN Confusion Matrix:***
 
-|16 | 0 | 0 |
-|--|--|--|
-| **0** | **18** | **0** |
-| **0** | **2** | **13** |
+<p align="center">
+    <img width="400" height="400" src="Plots/K-NN_Classifier_Confusion_Matrix.png"> 
+</p>
 
 > **Accuracy score: 0.9591836734693877**
 > 
 > **K-NN Score: 0.9591836734693877**
 
+**Manhattan vs Euclidean Distance**
+
+***Manhattan***
+
+| ![man_1](Plots/knn_manhattan_1.png) | ![man_2](Plots/knn_manhattan_2.png) | ![man_3](Plots/knn_manhattan_3.png) |
+|--|--|--|
+| ![man_5](Plots/knn_manhattan_5.png) | ![man_10](Plots/knn_manhattan_10.png) | ![man_15](Plots/knn_manhattan_15.png) |
+
+
+***Euclidean***
+
+| ![ec_1](Plots/knn_euclidean_1.png) | ![ec_2](Plots/knn_euclidean_2.png) | ![ec_3](Plots/knn_euclidean_3.png) |
+|--|--|--|
+| ![ec_5](Plots/knn_euclidean_5.png) | ![ec_10](Plots/knn_euclidean_10.png) | ![ec_15](Plots/knn_euclidean_15.png) |
+
+
 The model predicted as ['Iris-virginica'].
 
 ***SVC Confusion Matrix:***
 
-|16 | 0 | 0 |
-|--|--|--|
-| **0** | **12** | **6** |
-| **0** | **0** | **15** |
+<p align="center">
+    <img width="400" height="400" src="Plots/SVC_Classifier_Confusion_Matrix.png"> 
+</p>
 
 > **Accuracy score: 0.8775510204081632**
 
@@ -73,10 +87,9 @@ The model predicted as ['Iris-versicolor'].
 
 ***Gaussian Naive Bayes Confusion Matrix:***
 
-| 16 | 0 | 0 |
-|--|--|--|
-| **0** | **17** | **1** |
-| **0** | **2** | **13** |
+<p align="center">
+    <img width="400" height="400" src="Plots/Gaussian_Naive_Bayes_Confusion_Matrix.png"> 
+</p>
 
 > **Accuracy score: 0.9387755102040817**
 
@@ -84,10 +97,9 @@ The model predicted as ['Iris-virginica'].
 
 ***Decision Tree Classifier Confusion Matrix:***
 
-| 16 | 0 | 0 |
-|--|--|--|
-| **0** | **18** | **0** |
-| **0** | **1** | **14** |
+<p align="center">
+    <img width="400" height="400" src="Plots/Decision_Tree_Classifier_Confusion_Matrix.png"> 
+</p>
 
 > **Accuracy score: 0.9795918367346939**
 
@@ -95,10 +107,9 @@ The model predicted as ['Iris-virginica'].
 
 ***Random Forest Confusion Matrix:***
 
-| 16 | 0 | 0 |
-|--|--|--|
-| **0** | **18** | **0** |
-| **0** | **2** | **13** |
+<p align="center">
+    <img width="400" height="400" src="Plots/Random_Forest_Classifier_Confusion_Matrix.png"> 
+</p>
 
 > **Accuracy score: 0.9591836734693877**
 
@@ -130,6 +141,9 @@ The model predicted as ['Iris-virginica'].
 **True Positive Rate:**
 [0.     0.6875 1.     1.    ]
 
+<p align="center">
+    <img width="400" height="400" src="Plots/roc_curve.png"> 
+</p>
 
 ## How to Run Code
 
