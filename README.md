@@ -39,10 +39,9 @@ In the ***Plots*** file, there are the confusion matrix of the classification al
 
 ***Logistic Regression Confusion Matrix:***
 
-|16 | 0 | 0 |
-|--|--|--|
-| **0** | **18** | **0** |
-| **0** | **2** | **13** |
+<p align="center">
+    <img width="400" height="500" src="Plots/Logistic_Regression_Confusion_Matrix.png"> 
+</p>
 
 > **Accuracy score: 0.9591836734693877**
 
